@@ -1,0 +1,131 @@
+.App {
+  width: 100%;
+  overflow: hidden;
+  position: inherit;
+}
+.homeWrap {
+  background: url(./assets/bg.png)center 0 no-repeat;
+}
+/* .homeWrap::before {
+  position: absolute;
+  top: 3rem;
+  right: 0;
+  content: '';
+  display: block;
+  background-image: url(./assets/top-bg-2.png);
+  background-repeat: no-repeat;
+  background-position-x: 190%;
+  width: 50%;
+  height: 853px;
+  z-index: 1;
+}
+.homeWrap::after {
+  position: absolute;
+  top: 30rem;
+  left: 0;
+  content: '';
+  display: block;
+  background-image: url(./assets/top-bg-2.png);
+  background-repeat: no-repeat;
+  background-position-x: -420%;
+  width: 50%;
+  z-index: 1;
+  height: 853px;
+} */
+.container {
+  position: relative;
+  width: 62.5%;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 85%;
+  }
+}
+
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-h-between {
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-h-center {
+  justify-content: center;
+}
+.flex-v-center {
+  align-items: center;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.lineBox {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  overflow: hidden;
+}
+
+@media (min-width: 900px) {
+  .lineBox .minLine.line_1,
+  .lineBox .minLine.line_2 {
+    -webkit-transform-origin: left bottom;
+    -moz-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    -o-transform-origin: left bottom;
+    transform-origin: left bottom;
+  }
+  .lineBox .minLine.line_2 {
+    left: 21.5rem;
+    top: 54rem;
+  }
+  .lineBox .minLine.line_1 {
+    left: -4rem;
+    top: 65.5rem;
+    width: 24rem;
+  }
+  .lineBox .minLine {
+    position: absolute;
+    z-index: 1;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+    width: 18rem;
+    height: 2px;
+    background-color: var(--second-color);
+  }
+  .lineBox .minLine.line_3,
+  .lineBox .minLine.line_4 {
+    -webkit-transform-origin: right top;
+    -moz-transform-origin: right top;
+    -ms-transform-origin: right top;
+    -o-transform-origin: right top;
+    transform-origin: right top;
+  }
+  .lineBox .minLine.line_3 {
+    right: 0;
+    top: 15rem;
+    width: 17rem;
+  }
+  .lineBox .minLine.line_4 {
+    right: 12.5rem;
+    top: 0.5rem;
+    display: none;
+  }
+}

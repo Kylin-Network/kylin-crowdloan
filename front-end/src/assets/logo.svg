@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="80" viewBox="0 0 200 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="mask" width="200" height="80" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Logo" clip-path="url(#clip-path)">
+    <g id="Kylin" transform="translate(-23 -1.684)">
+      <g id="pattern">
+        <path id="rb" d="M44.2,44.538h-22.1L11.231,33.626,22.225,22.611Z" transform="translate(22.751 19.367)" fill="#e6007a" fill-rule="evenodd"/>
+        <path id="rt" d="M44.155.633,22.225,22.611l-11.018-11L22.225.633Z" transform="translate(22.751 19.367)" fill="#e6007a" fill-rule="evenodd"/>
+        <path id="cross" d="M11.207,11.615l11.018,11L11.231,33.625.3,22.656V22.49Z" transform="translate(22.751 19.367)" fill="#ab005b" fill-rule="evenodd"/>
+        <path id="lb" d="M11.232,33.626.3,44.584V22.657Z" transform="translate(22.751 19.367)" fill="#e6007a" fill-rule="evenodd"/>
+        <path id="lt" d="M11.207,11.615.3,22.49v.166l-.049-.048V.68Z" transform="translate(22.751 19.367)" fill="#e6007a" fill-rule="evenodd"/>
+      </g>
+      <path id="y" d="M19.8,14.8c-.913,2.257-2.579,6.233-3.439,8.168C15.823,24.2,15.177,25.6,14.479,27.1c-1.075,2.364-1.827,4.03-3.707,7.9H2.28a21.99,21.99,0,0,0,2.741-3.225A56.238,56.238,0,0,0,9.642,23.34L.883.18H9.589l4.353,12.574h.107L18.723.18h7.094Z" transform="translate(107.751 36.367)" fill="#fff" fill-rule="evenodd"/>
+      <path id="l" d="M114.2,41.332h8.167V2.857H114.2Z" transform="translate(22.751 18.751)" fill="#fff" fill-rule="evenodd"/>
+      <path id="i" d="M129.137,41.332H137.3V16.151h-8.167Z" transform="translate(22.751 18.751)" fill="#fff" fill-rule="evenodd"/>
+      <path id="n" d="M159.281,41.332V28.758c0-2.579-1.29-4.192-3.439-4.192s-3.439,1.613-3.439,4.192V41.332h-8.168V16.8h7.792v4.493c2.579-2.849,4.943-4.138,7.684-4.138,4.675,0,7.738,3.439,7.738,8.544V41.332Z" transform="translate(22.751 18.751)" fill="#fff" fill-rule="evenodd"/>
+      <path id="dot" d="M137.781,7.335a4.609,4.609,0,1,1-4.609-4.609,4.608,4.608,0,0,1,4.609,4.609" transform="translate(22.751 18.751)" fill="#e6007a" fill-rule="evenodd"/>
+      <path id="k" d="M53.109,3.5h9.027V21L74.764,3.5H85.457L71.593,21.934,86.8,41.332H75.57L62.136,24.023V41.332H53.109Z" transform="translate(22.751 18.751)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

@@ -1,10 +1,35 @@
 # kylin-crowdloan
 
 ## contribution front end
+- First you get crowdloan from relaychain
+> For Development
+```bash
+cd front-end
+yarn install
+```
+- Replace Line 4 in the front-end/.env.local file with kylin's parachain id, e.g. 'REACT_APP_PARACHAIN_ID=<PARACHAIN_ID>'
+- Replace Line 5 in the front-end/.env.local file with relaychain node, e.g. 'REACT_APP_RPC_TEST=<TEST_NODE>'
 
+```bash
+yarn start
+```
+visit http://localhost:3000
+
+> For Production
+```bash
+cd front-end
+yarn install
+```
+- Replace Line 4 in the front-end/.env.production.local file with kylin's parachain id, e.g. 'REACT_APP_PARACHAIN_ID=<PARACHAIN_ID>'
+- Replace Line 5 in the front-end/.env.production.local file with relaychain node, e.g. 'REACT_APP_RPC_URL=wss://rpc.polkadot.io'
+
+```bash
+yarn build
+```
+Then you can check out the 'build' directory and deploy to your server.
 
 ## distribution script
-- First you get crodlown from relaychain
+- First you get crowdloan from relaychain
 
 `cd ~/kylin-crowdloan/contribution-getter`    
 
