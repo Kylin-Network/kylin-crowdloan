@@ -22,7 +22,7 @@
     "write-json-file": "^4.3.0",
     "load-json-file": "^6.2.0",
     "exceljs": "4.2.1",
-    "node-fetch": "2.6.1",
     "yargs": "^17.6.2"
+    "node-fetch": "2.6.9",
   }
 }
